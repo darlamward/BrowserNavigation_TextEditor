@@ -1,0 +1,114 @@
+TODO: This is an example of the code inputs and outputs.
+TODO: Completed by Darla Ward
+TODO: June 9, 2023
+
+----------- Text Editor -----------
+     I - Insert a line
+     X - Delete current line
+     U - Move cursor up
+     D - Move cursor down
+     L - Move cursor left
+     R - Move cursor right
+     E - Edit current line
+     Q - Exit
+
+TODO: Inserting "one"
+Enter a command: I one
+one|
+
+TODO: Inserting "two"
+Enter a command: I two
+two|
+one
+
+TODO: Inserting "tree"
+Enter a command: I tree
+tree|
+two
+one
+
+TODO: Inserting "four"
+Enter a command: I four
+four|
+tree
+two
+one
+
+TODO: Inserting "five"
+Enter a command: I five
+five|
+four
+tree
+two
+one
+
+TODO: Moving Down a Line
+Enter a command: D
+four|
+tree
+two
+one
+
+TODO: Moving Down a Line
+Enter a command: D
+tree|
+two
+one
+
+TODO: Editing the current line to "three"
+Enter a command: E three
+thre|e
+two
+one
+
+TODO: Moving Down a Line
+Enter a command: D
+two|
+one
+
+TODO: Moving the cursor on the current line a spot to the left
+Enter a command: L
+tw|o
+one
+
+TODO: Moving the cursor on the current line a spot to the left
+Enter a command: L
+t|wo
+one
+
+TODO: Moving the cursor on the current line a spot to the right
+Enter a command: R
+tw|o
+one
+
+TODO: Moving Up a Line
+Enter a command: U
+three|
+two
+one
+
+TODO: Deleting a whole line
+Enter a command: X
+thre|e
+two
+one
+
+TODO: Moving Up a Line
+Enter a command: U
+five|
+three
+two
+one
+
+TODO: Inserting "six"
+Enter a command: I six
+six|
+five
+three
+two
+one
+
+TODO: Exiting the Text Editor
+Enter a command: Q
+
+Process finished with exit code 0
